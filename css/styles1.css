@@ -1,0 +1,25 @@
+	.config{
+		width: 20%;
+		font-size: 0.8rem;		
+	}
+	
+	.middle{
+		height: 60%;
+	}
+	
+	.sub{
+		width: 62px;
+		font-size: 0.75rem;
+	}
+	
+	.left{
+		width: 70%;
+	}
+	
+	right{
+		width: 30%;
+	}
+			
+	.empty{
+		width: 10%;
+	}
