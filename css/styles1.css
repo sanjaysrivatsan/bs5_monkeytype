@@ -1,25 +1,45 @@
-	.config{
-		width: 20%;
-		font-size: 0.8rem;		
+.config{
+	width: 20%;
+	font-size: 0.8rem;		
 	}
 	
-	.middle{
-		height: 60%;
+.middle{
+	height: 60%;
 	}
 	
-	.sub{
-		width: 62px;
-		font-size: 0.75rem;
+.sub{
+	font-size: .65rem;
+	left: 3.2rem;
+	line-height: .65rem;
+	position: absolute;
+	top: 1.2rem;
+	font-weight: bold;
 	}
 	
-	.left{
-		width: 70%;
+.left{
+	width: 70%;
 	}
 	
-	right{
-		width: 30%;
+.right{
+	width: 30%;
 	}
-			
-	.empty{
-		width: 10%;
+
+.empty{
+	width: 10%;
+	}
+
+.bold{
+	font-weight: bold;
+	}
+
+.font-style{
+	
+	}
+
+.top{
+	font-size: .65rem;
+	left: .25rem;
+	line-height: .65rem;
+	position: absolute;
+	top: -.1rem;
 	}
