@@ -1,23 +1,47 @@
+.font-style{
+	font-family: "Roboto Mono", sans-serif;
+	}
+
 .config{
 	width: 20%;
-	font-size: 0.8rem;		
+	font-size: 0.7rem;
+	margin-left: 27%;
+	text-align: right;
+	line-height: 0.75rem;
+	position: relative;
+	top: 0.8rem;
+	}
+	
+.config-icon{
+	width: 0.9rem;
+	}
+
+.wordcount{
+	width: 50%;
+	position: relative;
+	left: 6rem;
 	}
 	
 .middle{
 	height: 60%;
+	font-size: 24px;
+	font-weight: 500;
 	}
-	
-.sub{
-	font-size: .65rem;
-	left: 3.2rem;
-	line-height: .65rem;
-	position: absolute;
-	top: 1.2rem;
-	font-weight: bold;
+
+.keys{
+	font-size: 0.8rem;
+	line-height: 1.5rem;
 	}
 	
 .left{
 	width: 70%;
+	}
+	
+.user{
+	font-size: 0.7rem;
+	line-height: 2.3rem;
+	position: relative;
+	top: 0.8rem;
 	}
 	
 .right{
@@ -29,17 +53,56 @@
 	}
 
 .bold{
-	font-weight: bold;
-	}
-
-.font-style{
-	
+	font-weight: 500;
 	}
 
 .top{
 	font-size: .65rem;
-	left: .25rem;
 	line-height: .65rem;
-	position: absolute;
-	top: -.1rem;
+	position: relative;
 	}
+	
+.icon{
+	width: 1.25em;
+	float: left;
+	position: relative;	
+	top: 1.3rem;
+	}
+	
+.icon2{
+	width: 15px;
+	float: left;
+	margin-right: 0.2rem;
+	}
+	
+.footer-text{
+	font-size: 0.8rem;
+	float: right;
+	}	
+	
+.main-icon{
+	float: left;
+	line-height:2.3rem;
+	position: relative;
+	top: 0.7rem;
+	}
+	
+.toolbar{
+	float:left;
+	}
+	
+.mtype{
+	font-size: 32px;
+	width: 250px;
+	line-height: 2.3rem;
+	font-weight: 500;
+	}
+	
+.msee{
+	width: 250px;
+	position: relative;
+	top: 0.5rem;
+	left: 0.5rem;
+	font-size: 0.6rem;
+	}
+	
