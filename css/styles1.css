@@ -1,25 +1,20 @@
 .font-style{
 	font-family: "Roboto Mono", sans-serif;
+	color: #a66b00;
 	}
 
 .config{
-	width: 20%;
 	font-size: 0.7rem;
-	margin-left: 27%;
+	margin-left: 26%;
 	text-align: right;
 	line-height: 0.75rem;
 	position: relative;
 	top: 0.8rem;
+	width: 20%;
 	}
 	
 .config-icon{
 	width: 0.9rem;
-	}
-
-.wordcount{
-	width: 50%;
-	position: relative;
-	left: 6rem;
 	}
 	
 .middle{
@@ -32,9 +27,15 @@
 	font-size: 0.8rem;
 	line-height: 1.5rem;
 	}
-	
+
+.kbd{
+	background-color: #a66b00;
+	color: #f2aa00;
+	width: fit-content;
+	}
+
 .left{
-	width: 70%;
+	width: fit-content;
 	}
 	
 .user{
@@ -45,7 +46,7 @@
 	}
 	
 .right{
-	width: 30%;
+	width: fit-content;
 	}
 
 .empty{
@@ -73,8 +74,16 @@
 	width: 15px;
 	float: left;
 	margin-right: 0.2rem;
+	position: relative;	
+	top: .1rem;
+	}
+
+.icon3{
+	width: 1rem;
+	float: left;
 	}
 	
+
 .footer-text{
 	font-size: 0.8rem;
 	float: right;
@@ -105,4 +114,51 @@
 	left: 0.5rem;
 	font-size: 0.6rem;
 	}
+
+.cmd{
+	font-size: 0.75rem;
+	}
+
+.lang{
+	width: fit-content;
+	margin: auto;
+	line-height: 1rem;
+	}
 	
+	
+a:link{
+color: #a66b00;
+}	
+
+a.yellow:link{
+	color: yellow;
+	}
+	
+a:visited {
+  color: #a66b00;
+}
+
+a.yellow:visited {
+  color: yellow;
+}
+
+a:hover{
+	color: white;
+	}
+	
+a.yellow:hover{
+	color: white;
+}
+
+.width-fit{
+	width: fit-content;
+	}
+	
+.padd{
+	padding-left: 0rem;
+	padding-right: 0.3rem;
+	}
+
+.orange{
+	background-color: #f2aa00;
+	}
