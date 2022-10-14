@@ -1,18 +1,26 @@
 .font-style{
 	font-family: "Roboto Mono", sans-serif;
 	color: #a66b00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	}
 
-.config{
-	font-size: 0.7rem;
+.centercontent{
+	padding: 32px;
+	max-width: 1000px;
+	min-height: 100%;
+}
+
+.config p {
+	font-size: 0.5rem;
 	margin-left: 26%;
 	text-align: right;
-	line-height: 0.75rem;
 	position: relative;
-	top: 0.8rem;
+	display: inline-block;
 	width: 20%;
-	}
-	
+	}	
+
 .config-icon{
 	width: 0.9rem;
 	}
@@ -57,10 +65,11 @@
 	font-weight: 500;
 	}
 
-.top{
+.top {
 	font-size: .65rem;
-	line-height: .65rem;
+	align-items: center;
 	position: relative;
+	width: 30%;
 	}
 	
 .icon{
@@ -91,9 +100,8 @@
 	
 .main-icon{
 	float: left;
-	line-height:2.3rem;
+	align-items: center;
 	position: relative;
-	top: 0.7rem;
 	}
 	
 .toolbar{
@@ -103,7 +111,7 @@
 .mtype{
 	font-size: 32px;
 	width: 250px;
-	line-height: 2.3rem;
+	align-items: center;
 	font-weight: 500;
 	}
 	
@@ -154,11 +162,6 @@ a.yellow:hover{
 	width: fit-content;
 	}
 	
-.padd{
-	padding-left: 0rem;
-	padding-right: 0.3rem;
-	}
-
 .orange{
 	background-color: #f2aa00;
 	}
