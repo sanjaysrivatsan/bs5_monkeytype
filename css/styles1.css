@@ -102,9 +102,8 @@
 	}	
 	
 .main-icon{
-	float: left;
 	align-items: center;
-	display: grid;
+	display: flex;
 	}
 	
 .toolbar{
@@ -113,13 +112,13 @@
 	
 .mtype{
 	font-size: 32px;
-	width: 250px;
+	width: auto;
 	align-items: center;
 	font-weight: 500;
 	}
 	
 .msee{
-	width: 250px;
+	width: fit-content;
 	position: relative;
 	top: 0.5rem;
 	left: 0.5rem;
