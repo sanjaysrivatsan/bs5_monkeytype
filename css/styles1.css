@@ -1,18 +1,24 @@
 body{
 	font-family: "Roboto Mono", sans-serif;
 	color: #a66b00;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
 	}
+
+#app{
+	display: grid;
+	grid-template-columns: auto minmax(0,1000px) auto;
+    justify-items: center;
+}
+
+#app.wide125 {
+    grid-template-columns: auto minmax(0,1250px) auto;
+}
 
 .centercontent{
 	display: grid;
     gap: 2rem;
     grid-auto-flow: row;
     grid-template-rows: auto 1fr auto;
-    max-width: 1000px;
+    max-width: 1250px;
     min-height: 100vh;
     padding: 2rem;
     transition: padding-top .125s;
